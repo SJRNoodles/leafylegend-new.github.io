@@ -7,3 +7,10 @@ p{
   display: none;
   
 }
+.heavy {
+  font-weight: bold;
+  
+}
+.heavy:hover {
+  cursor: pointer;
+}
