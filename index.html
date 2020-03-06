@@ -11,10 +11,11 @@
   <link rel='stylesheet' href='style.css'>
   </head>
   <body>
+    <div class='page-content'>
     <h1>This Page is very, very unfinished, go play outside or something</h1><br />
     <div id='games' class='popup-list'>
       <p>Games</p>
-      <img src='arrow_btn.png' class='arrow-btn' onclick='$("#games-content").toggle()' width=30 height=30/><br />
+      <img src='arrow_btn.png' class='arrow-btn' onclick='$("#games-content").slideToggle()' width=30 height=30/><br />
       <div id='games-content' class='popup-list-games'><br />
         <p>Null<span class="heavy" onclick='Modal(1)'>Preview</span></p>
       </div>
